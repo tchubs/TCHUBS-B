@@ -1,0 +1,68 @@
+/* 
+    Document   : containers
+    Created on : Aug 14, 2012, 11:06:32 AM
+    Author     : tchubs
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    margin: 0px;
+    height: 100%;  
+    
+}
+
+.window{
+   /*this is what we want the div to look like*/
+    background-color: #c8c3c3;
+    display:block;
+
+    /*set the div in the top-left corner of the screen*/
+    position:absolute;
+    top:0;
+    left:0;
+    
+    /*set the width and height to 100% of the screen*/
+    width:100%;
+    height:100%;
+}
+
+.search_table{
+    width:100%;
+    height:100%;
+}
+
+.search_table_tr{
+    
+}
+
+.search_table td{
+    padding: 5px;
+    background-color: #ffffff;   
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: #000000;
+    border-left-color: #000000;
+    border-bottom-color: #000000;
+    border-top-color: #000000;     
+    
+    text-align: center;
+}
+
+.testID{
+    background-color: pink;
+}
+
+.previewDiv{
+    background-color: pink;
+}
